@@ -15,7 +15,7 @@ from langchain.vectorstores import FAISS
 
 
 #os.environ["OPENAI_API_KEY"] = "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"
-llm=GooglePalm(google_api_key="AIzaSyB5F-wJlpw-VUbDkOCrXq4-P_04mLuKRfI", temperature=0.9)
+llm=GooglePalm(google_api_key="API_KEY", temperature=0.9)
 
 st.title("News Research Tool")
 st.sidebar.title("News article titles")
